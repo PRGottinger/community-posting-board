@@ -41,6 +41,16 @@ button:hover {
   margin: 0;
   padding: 0;
 }
+.content {
+  background-image: url("/public/pictures/community1.png");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
 
 textarea,
 input {
@@ -78,6 +88,7 @@ form label {
 }
 
 header {
+  background-color: #e5e9ea;
   border-bottom: 1px solid #ccc;
   display: flex;
   justify-content: space-between;
@@ -135,6 +146,9 @@ main {
   display: block;
   margin: -1.5% 0 2% 0;
 }
+input {
+  background-color: #d5ecf9;
+}
 
 .upvote-btn {
   background-color: #197d0f;
@@ -173,9 +187,11 @@ main {
 }
 
 footer {
+  background-color: #e5e9ea;
   border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
   padding: 1%;
   font-size: 110%;
+  width: 100%;
 }
