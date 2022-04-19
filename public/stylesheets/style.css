@@ -155,6 +155,15 @@ input {
   background-color: #d5ecf9;
 }
 
+.post-text {
+  font-style: bold;
+  font-size: 16px;
+}
+
+.meta {
+  font-size: 12px;
+}
+
 .upvote-btn {
   background-color: #197d0f;
   transition: background-color 0.1s;

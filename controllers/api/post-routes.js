@@ -130,6 +130,14 @@ router.put("/:id", withAuth, (req, res) => {
       where: {
         id: req.params.id,
       },
+    },
+    {
+      post_url: req.body.post_url,
+    },
+    {
+      where: {
+        id: req.params.id,
+      },
     }
   )
     .then((dbPostData) => {
